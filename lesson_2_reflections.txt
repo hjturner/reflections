@@ -1,0 +1,1 @@
+When I initialise a depository, git creates meta data that will begin to track everything in the repository. I need to do it otherwise nothing will be tracked.
