@@ -1,0 +1,14 @@
+Viewing two files using diff automatically found the differences between them, showing me what I had edited and therefore helping me to find bugs quickly.
+
+Having easy access to the entire history of a file will allow me to see what changed and when, which will help me quickly identify bugs and go back to previous version that I know worked. I can then see what changed to cause the fault and correct it. 
+
+Manually choosing when to create a commit gives you control over what changes you make and the quality of the code at each check point. Automatically comitting would stop you forgetting but it might not save at a logical position. Comitting at logical change points is the best way of saving versions of a document.
+
+When working on programming projects, it's likely that what you're doing will affect multiple files at the same time and all will need to be updated. Saving all the files at a time in a snapshot will maintain working relationships between the files and allow you to keep clear consistent boundaries between versions.
+
+I can use git log to display all the commits that have been made to a repository. I can then use git diff to compare any two commits to see the changes made in that commit.
+
+If I use version control, I am much happier to make changes that might break the program because I know at any point I can go back to an earlier version and load one that works. Not only that but I can look at the differences to find out what code I wrote that introduced the bug.
+
+I want to try using git for big projects.
+
